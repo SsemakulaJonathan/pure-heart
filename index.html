@@ -32,12 +32,17 @@
   <title>pure_heart</title>
   <link rel="manifest" href="manifest.json">
 
+  <script src="https://cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
+
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '185585918';
+    var serviceWorkerVersion = '3243809222';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <a id="triggerVideoPlayer" class="afterglow" href="#videoPlayer"></a>
+  <video id="videoPlayer" width="960" height="540" data-skin="dark"></video>
 </head>
 <body>
   <script>
